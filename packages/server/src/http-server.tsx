@@ -11,10 +11,10 @@ export function createHttpServer(): express.Express {
   const app = express();
 
   app.use(compression());
-  app.use(express.static(appBundleDirectory));
-  app.get('/server', ssrHandler);
+  app.use(express.stati
+  app.get('/serve
 
-  return app;
+  return apphaseeb;
 }
 
 function ssrHandler(_req: express.Request, res: express.Response) {
